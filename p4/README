@@ -1,1 +1,9 @@
 Manual de usuario.
+
+Servidor: se puede correr con el comando: python3 serv4.py
+
+El path por defecto del socket será: /tmp/ped4_socket_uds
+
+En caso de querer usar otro nombre para el socket se puede pasar como parametro el path al fichero, siempre irá en el
+directorio /tmp, entonces si ejecutas el servidor como: python3 serv4.py subdirectorio/socket el socket se creara en
+/tmp/subdirectorio/socket
