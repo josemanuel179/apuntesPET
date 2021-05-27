@@ -1,0 +1,17 @@
+Manual de usuario.
+
+Clase Bolos:
+
+Creación: recibe como parametro una lista que internamente contiene 10 listas, una por cada ronda de la partida,
+cualquier error en el formato de las rondas resultará en la excepción error de formato.
+
+Puntaje: para calcular el puntaje crear un objeto y llamar al método puntaje.
+
+Clase ErrorDeFormato: excepción usada en caso de cualquier error en el formato de la partida al crear un objeto.
+
+Ejecución de los tests:
+Para ejecutar los test se proporciona un Makefile, se puede ejecutar sin targets, o con el target test resultando en la
+ejecución de los tests ( comandos make o make test).
+
+El target clean (comando make clean) resultará en el borrado del directorio __pycache__
+

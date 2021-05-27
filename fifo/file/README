@@ -1,0 +1,15 @@
+Manual de usuario.
+
+Esta aplicación consta de dos partes, un servidor y un cliente, el cliente envía el nombre de un fichero al servidor
+y el servidor le devuelve los contenidos del fichero.
+El servidor primero crea y lee constantemente el FIFO /tmp/ped4_p3_app2.
+El cliente abre el FIFO /tmp/ped4_p3_app2 y escribe su PID y el nombre del fichero que quiere abrir.
+El cliente crea el FIFO /tmp/ped4_p3_app2_PID.
+El servidor recibe el mensaje, abre el fichero indicado por el cliente y el FIFO que el cliente creo y le devuelve
+los contenidos del fichero.
+Finalmente el cliente elimina el FIFO creado.
+
+Se puede ejecutar la aplicación con el comando make, en este caso se usará el fichero prueba.txt contenido en el mismo
+directorio.
+En caso de quere ejecutar con otro fichero primero se tiene que ejecutar el servidor: python3 serv3.py
+Subsecuentemente ejecutar el cliente en otro terminal: python3 cli3.py path/al/fichero.

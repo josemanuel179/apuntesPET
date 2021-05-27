@@ -1,0 +1,4 @@
+Para usar el programa se necesita tener Python3 instalado, el módulo unittest viene incluido en la instalación estandar
+de Python3.
+
+Para usar el Makefile se recomienda tener un sistema operativo basado en Unix, con Make y Python3 instalado.

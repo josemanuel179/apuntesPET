@@ -1,0 +1,20 @@
+Manual de usuario.
+
+Ejecución del servidor:
+    Opción 1: Usar el comando python3 serv7.py
+        En este caso se usarán los valores por defecto para la dirección y el puerto (0.0.0.0 , 65432)
+
+    Opción 2: Usar el comando python3 serv7.py server_address server_port
+        En este caso se pasará como parametro la dirección y puerto en la que escuchará el servidor.
+
+    Opción 3: Usar el comando make
+        Se necesita tener instalado make, usará las opciones por defecto del servidor.
+
+
+Ejecución del cliente:
+
+    Opción 1: Usar el comando python3 cli7.py
+        En este caso se usarán los valores por defecto para la dirección y el puerto (127.0.0.1 , 65432)
+
+    Opción 2: Usar el comando python3 cli7.py server_address server_port
+        En este caso se pasará como parametro la dirección y puerto del servidor a conectar.
